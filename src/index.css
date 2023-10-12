@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Pre Loader */
+.containerloader{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #363062 0%, #4D4C7D 100%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+  position: relative;
+}
+.loader:after {
+  content: '';
+  background: #F99417;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius:4px;
+  transform-origin: -16px -32px;
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+   0% , 100% {
+      transform: rotate(-45deg)  translate(-50% , -50%)
+    }
+   50% {
+      transform: rotate(-245deg)  translate(-50% , -50%)
+   }
+}
+  
