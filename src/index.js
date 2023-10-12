@@ -10,4 +10,4 @@ setTimeout(function(){ root.render(
   </React.StrictMode>
 );
 
-},4000);
+},2000);
