@@ -14,3 +14,9 @@
     color:#F99417;
     font-size: 3rem;
 }
+
+@media (max-width: 620px){
+    .container h2 {
+        font-size: 2rem;
+    }
+}
